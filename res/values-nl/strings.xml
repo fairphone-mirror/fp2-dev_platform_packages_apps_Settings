@@ -1428,13 +1428,8 @@
     <string name="builtin_keyboard_settings_title" msgid="7688732909551116798">"Fysiek toetsenbord"</string>
     <string name="builtin_keyboard_settings_summary" msgid="2392531685358035899">"Instellingen voor vast toetsenbord"</string>
     <string name="maintenance_settings_title">"Onderhoud"</string>
-    <string name="proximity_sensor_category">"Afstandssensor"</string>
     <string name="proximity_sensor_settings_list_item_title">"Afstandssensor"</string>
     <string name="proximity_sensor_settings_list_item_summary">""</string>
-    <string name="sensor_diagnostics_settings_list_item_title">"Diagnostiek"</string>
-    <string name="sensor_diagnostics_settings_list_item_summary">"Controleer de sensor status"</string>
-    <string name="sensor_calibration_settings_list_item_title">"Kalibrering"</string>
-    <string name="sensor_calibration_settings_list_item_summary">"Gebruik deze functie als je problemen ondervindt met de afstandssensor"</string>
     <string name="development_settings_title" msgid="215179176067683667">"Opties voor ontwikkelaars"</string>
     <string name="development_settings_summary" msgid="1815795401632854041">"Opties instellen voor appontwikkeling"</string>
     <string name="development_settings_not_available" msgid="4308569041701535607">"Ontwikkelaarsopties zijn niet beschikbaar voor deze gebruiker"</string>

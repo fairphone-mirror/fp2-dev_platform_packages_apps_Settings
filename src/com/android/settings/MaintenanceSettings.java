@@ -10,15 +10,11 @@ import android.preference.PreferenceScreen;
 public class MaintenanceSettings extends SettingsPreferenceFragment {
 
     // Preference categories
-    private static final String PROXIMITY_SENSOR_CATEGORY = "proximity_sensor_category";
-
-    private static final String SENSOR_CALIBRATION_PREFERENCE_SCREEN =
-            "sensor_calibration_settings";
+    private static final String PROXIMITY_SENSOR_PREFERENCE_SCREEN =
+            "proximity_sensor_settings";
 
     // Preference controls.
-    private PreferenceCategory mProximitySensorCategory;
-
-    private PreferenceScreen mProximityCalibrationPreferenceScreen;
+    private PreferenceScreen mProximitySensorPreferenceScreen;
 
     @Override
     public void onCreate(Bundle icicle) {

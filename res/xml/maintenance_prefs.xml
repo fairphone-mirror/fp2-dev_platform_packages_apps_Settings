@@ -4,7 +4,12 @@
         android:title="@string/maintenance_settings_title">
 
     <PreferenceScreen android:key="proximity_sensor_settings"
-          android:fragment="com.android.settings.maintenance.ProximitySensorSettings"
-          android:title="@string/proximity_sensor_settings_list_item_title"/>
+          android:title="@string/proximity_sensor_settings_list_item_title">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.fairphone.psensor"
+            android:targetClass="com.fairphone.psensor.CalibrationActivity" />
+
+    </PreferenceScreen>
 
 </PreferenceScreen>

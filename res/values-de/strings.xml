@@ -1430,13 +1430,8 @@
     <string name="builtin_keyboard_settings_title" msgid="7688732909551116798">"Physische Tastatur"</string>
     <string name="builtin_keyboard_settings_summary" msgid="2392531685358035899">"Einstellungen für physische Tastatur"</string>
     <string name="maintenance_settings_title">"Wartung"</string>
-    <string name="proximity_sensor_category">"Näherungssensor"</string>
     <string name="proximity_sensor_settings_list_item_title">"Näherungssensor"</string>
     <string name="proximity_sensor_settings_list_item_summary">""</string>
-    <string name="sensor_diagnostics_settings_list_item_title">"Diagnostik"</string>
-    <string name="sensor_diagnostics_settings_list_item_summary">"Überprüfe Sensorstatus"</string>
-    <string name="sensor_calibration_settings_list_item_title">"Kalibrierung"</string>
-    <string name="sensor_calibration_settings_list_item_summary">"Verwende dieses Werkzeug falls du Probleme mit dem Näherungssensor hast"</string>
     <string name="development_settings_title" msgid="215179176067683667">"Entwickleroptionen"</string>
     <string name="development_settings_summary" msgid="1815795401632854041">"Optionen zur App-Entwicklung festlegen"</string>
     <string name="development_settings_not_available" msgid="4308569041701535607">"Entwickleroptionen sind für diesen Nutzer nicht verfügbar."</string>

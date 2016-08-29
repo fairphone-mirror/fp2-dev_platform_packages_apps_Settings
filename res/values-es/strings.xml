@@ -1429,13 +1429,8 @@
     <string name="builtin_keyboard_settings_title" msgid="7688732909551116798">"Teclado físico"</string>
     <string name="builtin_keyboard_settings_summary" msgid="2392531685358035899">"Ajustes del teclado físico"</string>
     <string name="maintenance_settings_title">"Mantenimiento"</string>
-    <string name="proximity_sensor_category">"Sensor de proximidad"</string>
     <string name="proximity_sensor_settings_list_item_title">"Sensor de proximidad"</string>
     <string name="proximity_sensor_settings_list_item_summary">""</string>
-    <string name="sensor_diagnostics_settings_list_item_title">"Diagnóstico"</string>
-    <string name="sensor_diagnostics_settings_list_item_summary">"Verifica el estado del sensor"</string>
-    <string name="sensor_calibration_settings_list_item_title">"Calibración"</string>
-    <string name="sensor_calibration_settings_list_item_summary">"Usa esta herramienta si crees que tu sensor de proximidad no funciona satisfactoriamente"</string>
     <string name="development_settings_title" msgid="215179176067683667">"Opciones de desarrollo"</string>
     <string name="development_settings_summary" msgid="1815795401632854041">"Establecer opciones de desarrollo de aplicaciones"</string>
     <string name="development_settings_not_available" msgid="4308569041701535607">"Las opciones de desarrollador no están disponibles para este usuario"</string>
