@@ -1428,13 +1428,8 @@
     <string name="builtin_keyboard_settings_title" msgid="7688732909551116798">"Physical keyboard"</string>
     <string name="builtin_keyboard_settings_summary" msgid="2392531685358035899">"Physical keyboard settings"</string>
     <string name="maintenance_settings_title">"Maintenance"</string>
-    <string name="proximity_sensor_category">"Proximity sensor"</string>
     <string name="proximity_sensor_settings_list_item_title">"Proximity sensor"</string>
     <string name="proximity_sensor_settings_list_item_summary">""</string>
-    <string name="sensor_diagnostics_settings_list_item_title">"Diagnostics"</string>
-    <string name="sensor_diagnostics_settings_list_item_summary">"Check sensor status"</string>
-    <string name="sensor_calibration_settings_list_item_title">"Calibration"</string>
-    <string name="sensor_calibration_settings_list_item_summary">"Use this tool if you\'re encountering issues with the proximity sensor"</string>
     <string name="development_settings_title" msgid="215179176067683667">"Developer options"</string>
     <string name="development_settings_summary" msgid="1815795401632854041">"Set options for app development"</string>
     <string name="development_settings_not_available" msgid="4308569041701535607">"Developer options are not available for this user"</string>
