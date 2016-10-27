@@ -3478,6 +3478,9 @@
 
     <!-- Maintenance Settings. The title for the item to take the user to Maintenance settings. -->
     <string name="maintenance_settings_title">Maintenance</string>
+    <!-- Maintenance settings screen, the title for the item to take the user to Checkup. -->
+    <string name="checkup_settings_list_item_title">Checkup</string>
+    <string name="checkup_settings_list_item_summary">Hardware diagnostics</string>
     <!-- Maintenance settings screen, the title for the item to take the user to the Proximity Sensor app. -->
     <string name="proximity_sensor_settings_list_item_title">Proximity sensor</string>
     <string name="proximity_sensor_settings_list_item_summary">""</string>

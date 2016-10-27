@@ -10,10 +10,14 @@ import android.preference.PreferenceScreen;
 public class MaintenanceSettings extends SettingsPreferenceFragment {
 
     // Preference categories
+    private static final String CHECKUP_PREFERENCE_SCREEN =
+            "checkup_settings";
+
     private static final String PROXIMITY_SENSOR_PREFERENCE_SCREEN =
             "proximity_sensor_settings";
 
     // Preference controls.
+    private PreferenceScreen mCheckupPreferenceScreen;
     private PreferenceScreen mProximitySensorPreferenceScreen;
 
     @Override
