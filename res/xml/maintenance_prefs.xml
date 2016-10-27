@@ -22,4 +22,14 @@
 
     </PreferenceScreen>
 
+    <PreferenceScreen android:key="hiccup_settings"
+          android:title="@string/hiccup_settings_list_item_title"
+          android:summary="@string/hiccup_settings_list_item_summary">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.fairphone.hiccup.app"
+            android:targetClass="com.fairphone.hiccup.app.HiccupSettings" />
+
+    </PreferenceScreen>
+
 </PreferenceScreen>

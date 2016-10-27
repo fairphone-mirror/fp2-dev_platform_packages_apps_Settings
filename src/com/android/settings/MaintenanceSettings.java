@@ -16,9 +16,13 @@ public class MaintenanceSettings extends SettingsPreferenceFragment {
     private static final String PROXIMITY_SENSOR_PREFERENCE_SCREEN =
             "proximity_sensor_settings";
 
+    private static final String HICCUP_PREFERENCE_SCREEN =
+            "hiccup_settings";
+
     // Preference controls.
     private PreferenceScreen mCheckupPreferenceScreen;
     private PreferenceScreen mProximitySensorPreferenceScreen;
+    private PreferenceScreen mHiccupPreferenceScreen;
 
     @Override
     public void onCreate(Bundle icicle) {
