@@ -1427,6 +1427,9 @@
     <string name="onscreen_keyboard_settings_summary" msgid="5841558383556238653">"Instellingen voor schermtoetsenbord"</string>
     <string name="builtin_keyboard_settings_title" msgid="7688732909551116798">"Fysiek toetsenbord"</string>
     <string name="builtin_keyboard_settings_summary" msgid="2392531685358035899">"Instellingen voor vast toetsenbord"</string>
+    <string name="maintenance_settings_title">"Onderhoud"</string>
+    <string name="proximity_sensor_settings_list_item_title">"Afstandssensor"</string>
+    <string name="proximity_sensor_settings_list_item_summary">""</string>
     <string name="development_settings_title" msgid="215179176067683667">"Opties voor ontwikkelaars"</string>
     <string name="development_settings_summary" msgid="1815795401632854041">"Opties instellen voor appontwikkeling"</string>
     <string name="development_settings_not_available" msgid="4308569041701535607">"Ontwikkelaarsopties zijn niet beschikbaar voor deze gebruiker"</string>

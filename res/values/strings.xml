@@ -3476,6 +3476,12 @@
     <!-- Summary for built-in keyboard settings -->
     <string name="builtin_keyboard_settings_summary">Physical keyboard settings</string>
 
+    <!-- Maintenance Settings. The title for the item to take the user to Maintenance settings. -->
+    <string name="maintenance_settings_title">Maintenance</string>
+    <!-- Maintenance settings screen, the title for the item to take the user to the Proximity Sensor app. -->
+    <string name="proximity_sensor_settings_list_item_title">Proximity sensor</string>
+    <string name="proximity_sensor_settings_list_item_summary">""</string>
+
     <!-- Development Settings.  the title for the item to take the user to Development settings.  Development settings are settings meant for application developers.  -->
     <string name="development_settings_title">Developer options</string>
     <!-- Development Settings summary.  The summary of the item to take the user to Development settings.  Development settings are settings meant for application developers. -->
@@ -6212,8 +6218,8 @@
     <string name="superuser_ask">Ask</string>
     <string name="superuser_always">Always</string>
     <string name="superuser_never">Never</string>
-    
-    
+
+
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Root access</string>
     <string name="root_access_warning_title">Allow root access?</string>

@@ -360,6 +360,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             try {
                 int value = Integer.parseInt((String) objValue);
                 Settings.System.putInt(getContentResolver(), SCREEN_OFF_TIMEOUT, value);
+                Settings.Secure.putInt(getContentResolver(), Settings.Secure.SLEEP_TIMEOUT,value);      
                 updateTimeoutPreferenceDescription(value);
             } catch (NumberFormatException e) {
                 Log.e(TAG, "could not persist screen timeout setting", e);
