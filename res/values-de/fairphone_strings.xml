@@ -3,4 +3,6 @@
     <string name="privacy_impact_title">Privacy Impact</string>
     <string name="maintenance_settings_title">"Wartung"</string>
     <string name="proximity_sensor_settings_list_item_title">"Näherungssensor"</string>
+    <string name="hiccup_settings_list_item_title">"Hiccup"</string>
+    <string name="hiccup_settings_list_item_summary">"Stabilitätsberichte"</string>
 </resources>
