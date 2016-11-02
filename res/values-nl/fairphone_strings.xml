@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="privacy_impact_title">Privacy Impact</string>
+    <string name="maintenance_settings_title">"Onderhoud"</string>
+    <string name="proximity_sensor_settings_list_item_title">"Afstandssensor"</string>
 </resources>

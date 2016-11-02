@@ -1427,9 +1427,6 @@
     <string name="onscreen_keyboard_settings_summary" msgid="5841558383556238653">"Configuración del teclado en pantalla"</string>
     <string name="builtin_keyboard_settings_title" msgid="7688732909551116798">"Teclado físico"</string>
     <string name="builtin_keyboard_settings_summary" msgid="2392531685358035899">"Configuración de teclado físico"</string>
-    <string name="maintenance_settings_title">"Mantenimiento"</string>
-    <string name="proximity_sensor_settings_list_item_title">"Sensor de proximidad"</string>
-    <string name="proximity_sensor_settings_list_item_summary">""</string>
     <string name="development_settings_title" msgid="215179176067683667">"Opciones del programador"</string>
     <string name="development_settings_summary" msgid="1815795401632854041">"Establecer opciones para desarrollar aplicaciones"</string>
     <string name="development_settings_not_available" msgid="4308569041701535607">"Las opciones de programador no están disponibles para este usuario."</string>
