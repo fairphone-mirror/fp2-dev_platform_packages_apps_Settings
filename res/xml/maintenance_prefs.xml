@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/maintenance_settings_title">
+
+    <PreferenceScreen android:key="checkup_settings"
+          android:title="@string/checkup_settings_list_item_title"
+          android:summary="@string/checkup_settings_list_item_summary">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.fairphone.checkup"
+            android:targetClass="com.fairphone.checkup.MainActivity" />
+
+    </PreferenceScreen>
+
+    <PreferenceScreen android:key="proximity_sensor_settings"
+          android:title="@string/proximity_sensor_settings_list_item_title">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.fairphone.psensor"
+            android:targetClass="com.fairphone.psensor.CalibrationActivity" />
+
+    </PreferenceScreen>
+
+    <PreferenceScreen android:key="hiccup_settings"
+          android:title="@string/hiccup_settings_list_item_title"
+          android:summary="@string/hiccup_settings_list_item_summary">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.fairphone.hiccup.app"
+            android:targetClass="com.fairphone.hiccup.app.HiccupSettings" />
+
+    </PreferenceScreen>
+
+</PreferenceScreen>

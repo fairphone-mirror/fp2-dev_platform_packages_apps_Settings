@@ -240,6 +240,14 @@
                 android:icon="@drawable/ic_settings_print"
                 />
 
+        <!-- Maintenance -->
+        <dashboard-tile
+                android:id="@+id/maintenance_settings"
+                android:title="@string/maintenance_settings_title"
+                android:fragment="com.android.settings.MaintenanceSettings"
+                android:icon="@drawable/ic_settings_maintenance"
+                />
+
         <!-- Development -->
         <dashboard-tile
                 android:id="@+id/development_settings"
