@@ -2900,4 +2900,23 @@
   </string-array>
     <string name="picture_color_mode" msgid="4560755008730283695">"Kuvien värit"</string>
     <string name="picture_color_mode_desc" msgid="1141891467675548590">"Ota sRGB käyttöön"</string>
+
+    <string name="night_display_title" msgid="2626451512200357686">"Yövalo"</string>
+    <string name="night_display_text" msgid="4535302797673277668">"Yövalo tekee näytöstä punasävyisen. Sen avulla näytön katselu heikossa valossa on helpompaa ja saatat nukahtaa helpommin."</string>
+    <string name="night_display_auto_mode_title" msgid="8046314360381608455">"Ota käyttöön automaattisesti"</string>
+    <string name="night_display_auto_mode_never" msgid="6723636142053240947">"Ei koskaan"</string>
+    <string name="night_display_auto_mode_custom" msgid="6012300346981608242">"Muokattu aikataulu"</string>
+    <string name="night_display_auto_mode_twilight" msgid="2123345097508167094">"Auringonlaskusta sen nousuun"</string>
+    <string name="night_display_start_time_title" msgid="8918016772613689584">"Alkamisaika"</string>
+    <string name="night_display_end_time_title" msgid="8286061578083519350">"Päättymisaika"</string>
+    <string name="night_display_summary_off" msgid="1792750041697946539">"Pois päältä / <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_off_auto_mode_never" msgid="8865054549719499274">"Älä koskaan käynnistä automaattisesti"</string>
+    <string name="night_display_summary_off_auto_mode_custom" msgid="4962295097132112885">"Käynnistä automaattisesti kello <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_off_auto_mode_twilight" msgid="5520577516590422267">"Käynnistä automaattisesti, kun aurinko nousee"</string>
+    <string name="night_display_summary_on" msgid="1355713529996456744">"Päällä / <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_on_auto_mode_never" msgid="44005841579902825">"Älä koskaan sammuta automaattisesti"</string>
+    <string name="night_display_summary_on_auto_mode_custom" msgid="4350556852471560173">"Sammuta automaattisesti kello <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_on_auto_mode_twilight" msgid="6122152828111119250">"Sammuta automaattisesti, kun aurinko nousee"</string>
+    <string name="keywords_display_night_display" msgid="7630169927425425754">"näytön himmennys, yö, sävytys"</string>
+
 </resources>

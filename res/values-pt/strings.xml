@@ -2900,4 +2900,23 @@
   </string-array>
     <string name="picture_color_mode" msgid="4560755008730283695">"Modo de cor da imagem"</string>
     <string name="picture_color_mode_desc" msgid="1141891467675548590">"Usar sRGB"</string>
+
+    <string name="night_display_title" msgid="2626451512200357686">"Modo noturno"</string>
+    <string name="night_display_text" msgid="4535302797673277668">"O modo noturno tinge sua tela de vermelho. Isso facilita olhar para a tela ou ler com pouca luz e pode ajudar você a adormecer com mais facilidade."</string>
+    <string name="night_display_auto_mode_title" msgid="8046314360381608455">"Ativação automática"</string>
+    <string name="night_display_auto_mode_never" msgid="6723636142053240947">"Nunca"</string>
+    <string name="night_display_auto_mode_custom" msgid="6012300346981608242">"Personalizada"</string>
+    <string name="night_display_auto_mode_twilight" msgid="2123345097508167094">"Do pôr ao nascer do sol"</string>
+    <string name="night_display_start_time_title" msgid="8918016772613689584">"Horário de início"</string>
+    <string name="night_display_end_time_title" msgid="8286061578083519350">"Horário de término"</string>
+    <string name="night_display_summary_off" msgid="1792750041697946539">"Desativado / <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_off_auto_mode_never" msgid="8865054549719499274">"Nunca ativar automaticamente"</string>
+    <string name="night_display_summary_off_auto_mode_custom" msgid="4962295097132112885">"Ativar automaticamente às <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_off_auto_mode_twilight" msgid="5520577516590422267">"Ativar automaticamente ao pôr do sol"</string>
+    <string name="night_display_summary_on" msgid="1355713529996456744">"Ativado / <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_on_auto_mode_never" msgid="44005841579902825">"Nunca desativar automaticamente"</string>
+    <string name="night_display_summary_on_auto_mode_custom" msgid="4350556852471560173">"Desativar automaticamente às <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_on_auto_mode_twilight" msgid="6122152828111119250">"Desativar automaticamente ao nascer do sol"</string>
+    <string name="keywords_display_night_display" msgid="7630169927425425754">"escurecer tela, noite, tingir"</string>
+
 </resources>

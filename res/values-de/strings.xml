@@ -2903,4 +2903,23 @@
   </string-array>
     <string name="picture_color_mode" msgid="4560755008730283695">"Farbmodus für Bilder"</string>
     <string name="picture_color_mode_desc" msgid="1141891467675548590">"sRGB verwenden"</string>
+
+    <string name="night_display_title" msgid="2626451512200357686">"Nachtlicht"</string>
+    <string name="night_display_text" msgid="4535302797673277668">"Beim Nachtlicht wird das Display rot getönt. Dadurch kannst du den Bildschirm bei schwachem Licht leichter lesen und er wirkt beim Einschlafen nicht störend."</string>
+    <string name="night_display_auto_mode_title" msgid="8046314360381608455">"Automatisch aktivieren"</string>
+    <string name="night_display_auto_mode_never" msgid="6723636142053240947">"Nie"</string>
+    <string name="night_display_auto_mode_custom" msgid="6012300346981608242">"Benutzerdefinierter Zeitplan"</string>
+    <string name="night_display_auto_mode_twilight" msgid="2123345097508167094">"Sonnenuntergang bis -aufgang"</string>
+    <string name="night_display_start_time_title" msgid="8918016772613689584">"Beginn"</string>
+    <string name="night_display_end_time_title" msgid="8286061578083519350">"Ende"</string>
+    <string name="night_display_summary_off" msgid="1792750041697946539">"Aus / <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_off_auto_mode_never" msgid="8865054549719499274">"Niemals automatisch aktivieren"</string>
+    <string name="night_display_summary_off_auto_mode_custom" msgid="4962295097132112885">"Automatisch um <xliff:g id="ID_1">%1$s</xliff:g> aktivieren"</string>
+    <string name="night_display_summary_off_auto_mode_twilight" msgid="5520577516590422267">"Automatisch bei Sonnenuntergang aktivieren"</string>
+    <string name="night_display_summary_on" msgid="1355713529996456744">"An / <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_on_auto_mode_never" msgid="44005841579902825">"Niemals automatisch deaktivieren"</string>
+    <string name="night_display_summary_on_auto_mode_custom" msgid="4350556852471560173">"Automatisch um <xliff:g id="ID_1">%1$s</xliff:g> deaktivieren"</string>
+    <string name="night_display_summary_on_auto_mode_twilight" msgid="6122152828111119250">"Automatisch bei Sonnenaufgang deaktivieren"</string>
+    <string name="keywords_display_night_display" msgid="7630169927425425754">"Display dimmen, Nacht, Tönung"</string>
+
 </resources>

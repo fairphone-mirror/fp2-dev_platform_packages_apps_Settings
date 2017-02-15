@@ -2900,4 +2900,24 @@
   </string-array>
     <string name="picture_color_mode" msgid="4560755008730283695">"Mode de color de la imatge"</string>
     <string name="picture_color_mode_desc" msgid="1141891467675548590">"Utilitza sRGB"</string>
+    
+    <string name="night_display_title" msgid="2626451512200357686">"Llum nocturna"</string>
+    <string name="night_display_text" msgid="4535302797673277668">"La llum nocturna acoloreix la pantalla de vermell. D\'aquesta manera, costa menys mirar-la o llegir-hi amb poca llum i és més fàcil adormir-se."</string>
+    <string name="night_display_auto_mode_title" msgid="8046314360381608455">"Activa automàticament"</string>
+    <string name="night_display_auto_mode_never" msgid="6723636142053240947">"Mai"</string>
+    <string name="night_display_auto_mode_custom" msgid="6012300346981608242">"Programació personalitzada"</string>
+    <string name="night_display_auto_mode_twilight" msgid="2123345097508167094">"De la posta de sol a l\'alba"</string>
+    <string name="night_display_start_time_title" msgid="8918016772613689584">"Hora d’inici"</string>
+    <string name="night_display_end_time_title" msgid="8286061578083519350">"Hora de finalització"</string>
+    <string name="night_display_summary_off" msgid="1792750041697946539">"Desactivada / <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_off_auto_mode_never" msgid="8865054549719499274">"No l\'activis mai automàticament"</string>
+    <string name="night_display_summary_off_auto_mode_custom" msgid="4962295097132112885">"Activa automàticament a les <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_off_auto_mode_twilight" msgid="5520577516590422267">"Activa automàticament a la posta de sol"</string>
+    <string name="night_display_summary_on" msgid="1355713529996456744">"Activada / <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_on_auto_mode_never" msgid="44005841579902825">"No la desactivis mai automàticament"</string>
+    <string name="night_display_summary_on_auto_mode_custom" msgid="4350556852471560173">"Desactiva automàticament a les <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_on_auto_mode_twilight" msgid="6122152828111119250">"Desactiva automàticament a l\'alba"</string>
+    <string name="keywords_display_night_display" msgid="7630169927425425754">"pantalla atenuada, nit, color"</string>
+
+
 </resources>
