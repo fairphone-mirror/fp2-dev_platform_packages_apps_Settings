@@ -47,6 +47,7 @@ import android.os.BatteryStats;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceClickListener;
@@ -126,6 +127,9 @@ public class InstalledAppDetails extends AppInfoBase
     private static final String KEY_LAUNCH = "preferred_settings";
     private static final String KEY_BATTERY = "battery";
     private static final String KEY_MEMORY = "memory";
+    private static final String KEY_SUPERUSER = "superuser_settings";
+
+    private static final String ROOT_ACCESS_PROPERTY = "persist.sys.root_access";
 
     private final HashSet<String> mHomePackages = new HashSet<String>();
 
@@ -141,6 +145,7 @@ public class InstalledAppDetails extends AppInfoBase
     private Preference mLaunchPreference;
     private Preference mDataPreference;
     private Preference mMemoryPreference;
+    private Preference mSuperuserPreference;
 
     private boolean mDisableAfterUninstall;
     // Used for updating notification preference.
@@ -345,6 +350,14 @@ public class InstalledAppDetails extends AppInfoBase
         mMemoryPreference = findPreference(KEY_MEMORY);
         mMemoryPreference.setOnPreferenceClickListener(this);
 
+        mSuperuserPreference = findPreference(KEY_SUPERUSER);
+        String value = SystemProperties.get(ROOT_ACCESS_PROPERTY, "1");
+        if (value.equals("0") || value.equals("2")) {
+            removePreference(KEY_SUPERUSER);
+        } else {
+            mSuperuserPreference.setOnPreferenceClickListener(this);
+        }
+
         mLaunchPreference = findPreference(KEY_LAUNCH);
         if (mAppEntry != null && mAppEntry.info != null) {
             if ((mAppEntry.info.flags&ApplicationInfo.FLAG_INSTALLED) == 0 ||
@@ -507,6 +520,7 @@ public class InstalledAppDetails extends AppInfoBase
                 mPm, context));
         mNotificationPreference.setSummary(getNotificationSummary(mAppEntry, context,
                 mBackend));
+        mSuperuserPreference.setSummary(SuperuserSettings.getSummary(mAppEntry, context));
         if (mDataPreference != null) {
             mDataPreference.setSummary(getDataSummary());
         }
@@ -759,6 +773,8 @@ public class InstalledAppDetails extends AppInfoBase
             BatteryEntry entry = new BatteryEntry(getActivity(), null, mUserManager, mSipper);
             PowerUsageDetail.startBatteryDetailPage((SettingsActivity) getActivity(),
                     mBatteryHelper, BatteryStats.STATS_SINCE_CHARGED, entry, true);
+        } else if (preference == mSuperuserPreference) {
+            startAppInfoFragment(SuperuserSettings.class, mSuperuserPreference.getTitle());
         } else {
             return false;
         }
