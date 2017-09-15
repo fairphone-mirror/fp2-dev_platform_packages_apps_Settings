@@ -2468,6 +2468,7 @@
     <string name="sim_notification_summary" msgid="5024470200658902406">"Sozlash uchun bosing"</string>
     <string name="sim_pref_divider" msgid="6778907671867621874">"Quyidagi uchun afzal ko‘rilgan SIM-karta"</string>
     <string name="sim_calls_ask_first_prefs_title" msgid="7941299533514115976">"Har safar so‘ralsin"</string>
+    <string name="sim_sms_ask_first_prefs_title">"Har safar so‘ralsin"</string>
     <string name="sim_selection_required_pref" msgid="3446721423206414652">"Tanlash zarur"</string>
     <string name="dashboard_title" msgid="5453710313046681820">"Sozlamalar"</string>
     <string name="search_results_title" msgid="1796252422574886932">"Sozlamalar"</string>

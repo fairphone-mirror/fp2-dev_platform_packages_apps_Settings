@@ -2468,6 +2468,7 @@
     <string name="sim_notification_summary" msgid="5024470200658902406">"แตะเพื่อตั้งค่า"</string>
     <string name="sim_pref_divider" msgid="6778907671867621874">"ซิมที่แนะนำสำหรับ"</string>
     <string name="sim_calls_ask_first_prefs_title" msgid="7941299533514115976">"ถามทุกครั้ง"</string>
+    <string name="sim_sms_ask_first_prefs_title">"ถามทุกครั้ง"</string>
     <string name="sim_selection_required_pref" msgid="3446721423206414652">"ต้องเลือก"</string>
     <string name="dashboard_title" msgid="5453710313046681820">"การตั้งค่า"</string>
     <string name="search_results_title" msgid="1796252422574886932">"การตั้งค่า"</string>

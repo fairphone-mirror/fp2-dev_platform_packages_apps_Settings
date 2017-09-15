@@ -2470,6 +2470,7 @@
     <string name="sim_notification_summary" msgid="5024470200658902406">"સેટ કરવા માટે ટચ કરો"</string>
     <string name="sim_pref_divider" msgid="6778907671867621874">"આ માટે પસંદગીનું SIM"</string>
     <string name="sim_calls_ask_first_prefs_title" msgid="7941299533514115976">"દર વખતે પૂછો"</string>
+    <string name="sim_sms_ask_first_prefs_title">"દર વખતે પૂછો"</string>
     <string name="sim_selection_required_pref" msgid="3446721423206414652">"પસંદગી જરૂરી"</string>
     <string name="dashboard_title" msgid="5453710313046681820">"સેટિંગ્સ"</string>
     <string name="search_results_title" msgid="1796252422574886932">"સેટિંગ્સ"</string>

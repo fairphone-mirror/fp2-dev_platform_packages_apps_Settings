@@ -2468,6 +2468,7 @@
     <string name="sim_notification_summary" msgid="5024470200658902406">"सेट करण्यासाठी स्पर्श करा"</string>
     <string name="sim_pref_divider" msgid="6778907671867621874">"यासाठी प्राधान्यकृत सिम"</string>
     <string name="sim_calls_ask_first_prefs_title" msgid="7941299533514115976">"प्रत्येक वेळी विचारा"</string>
+    <string name="sim_sms_ask_first_prefs_title">"प्रत्येक वेळी विचारा"</string>
     <string name="sim_selection_required_pref" msgid="3446721423206414652">"निवड आवश्यक"</string>
     <string name="dashboard_title" msgid="5453710313046681820">"सेटिंग्ज"</string>
     <string name="search_results_title" msgid="1796252422574886932">"सेटिंग्ज"</string>
