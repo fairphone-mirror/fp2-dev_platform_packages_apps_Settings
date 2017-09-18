@@ -2885,6 +2885,23 @@
     <string name="write_settings_description" msgid="6868293938839954623">"Cette autorisation permet à une application de modifier les paramètres système."</string>
     <string name="write_settings_on" msgid="8230580416068832239">"Oui"</string>
     <string name="write_settings_off" msgid="5156104383386336233">"Non"</string>
+    <string name="sim_enabler_summary">" est %1$s"</string>
+    <string name="sim_enabled">"activée"</string>
+    <string name="sim_disabled">"désactivée"</string>
+    <string name="sim_missing">"absente (ou en erreur)"</string>
+    <string name="sim_enabler_need_enable_sim">"Activation de la carte SIM, valider ?"</string>
+    <string name="sim_enabler_need_disable_sim">"Désactivation de la carte SIM, valider ?"</string>
+    <string name="sim_enabler_will_disable_sim_title">"Attention"</string>
+    <string name="sim_enabler_need_switch_data_service">"Après désactivation, la carte SIM <xliff:g id="slotid">%1$s</xliff:g> sera utilisée pour les données mobiles."</string>
+    <string name="sim_enabler_airplane_on">"Action impossible, le mode avion est activé."</string>
+    <string name="sim_enabler_in_call">"Action impossible, appel en cours."</string>
+    <string name="sim_enabler_both_inactive">"Impossible de désactiver toutes les cartes SIM."</string>
+    <string name="sim_enabler_enabling">"Activation en cours…"</string>
+    <string name="sim_enabler_disabling">"Désactivation en cours…"</string>
+    <string name="sub_activate_success">"Activation réussie."</string>
+    <string name="sub_activate_failed">"Échec de l\'activation."</string>
+    <string name="sub_deactivate_success">"Désactivation réussie."</string>
+    <string name="sub_deactivate_failed">"Échec de la désactivation."</string>
     <string name="camera_gesture_title" msgid="1075838577642393011">"Double rotation pour l\'appareil photo"</string>
     <string name="camera_gesture_desc" msgid="1831390075255870960">"Ouvrez l\'application Appareil photo en faisant pivoter votre poignet deux fois."</string>
     <string name="camera_double_tap_power_gesture_title" msgid="1651873760405034645">"Appuyer deux fois sur bouton Marche/Arrêt pour lancer caméra"</string>
