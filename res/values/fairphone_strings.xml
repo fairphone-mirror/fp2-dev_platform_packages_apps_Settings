@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!-- Copyright (C) 2016-2018 Fairphone B.V.
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -43,4 +43,12 @@
     <string name="camera_module_ov8865">Main camera 8MP &#8211; OmniVision OV8865</string>
     <!-- About phone screen, 2017 camera module with OV12870 sensor -->
     <string name="camera_module_ov12870">Main camera 12MP &#8211; OmniVision OV12870</string>
+
+    <!-- About phone screen, battery module info label [CHAR LIMIT=40] -->
+    <string name="battery_module_info">Battery info</string>
+    <!-- About phone screen, battery module info summary -->
+    <string name="battery_module_summary" translatable="false"><xliff:g id="version"
+            example="FP2-BAT01">%1$s</xliff:g> &#8211; <xliff:g id="capacity"
+            example="2420">%2$d</xliff:g> mAh</string>
+
 </resources>

@@ -94,6 +94,8 @@
             android:allowBackup="false"
             android:usesCleartextTraffic="true">
 
+        <uses-library android:name="com.fairphone.common" />
+
         <!-- Settings -->
 
         <activity android:name="Settings"
